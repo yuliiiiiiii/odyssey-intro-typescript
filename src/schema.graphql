@@ -1,0 +1,13 @@
+"A particular intergalactic location avaialable for booking"
+type Listing {
+  id: ID!
+  title: String!
+  numOfBeds: Int
+  costPerNight: Float
+  closedForBooking: Boolean
+}
+
+
+type Query {
+  featuredListings: [Listing!]!
+}
