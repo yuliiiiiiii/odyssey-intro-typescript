@@ -21,5 +21,6 @@ async function startApolloServer() {
 }
 
 startApolloServer()
+//in terminal, run: npm run dev
 
 
